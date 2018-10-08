@@ -1,0 +1,24 @@
+C:\Users\GAME\AppData\Local\Temporary Projects\money\bin\Debug\money.exe.config
+C:\Users\GAME\AppData\Local\Temporary Projects\money\bin\Debug\money.exe
+C:\Users\GAME\AppData\Local\Temporary Projects\money\bin\Debug\money.pdb
+C:\Users\GAME\AppData\Local\Temporary Projects\money\bin\Debug\money.xml
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.vbprojAssemblyReference.cache
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.Form1.resources
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.Resources.resources
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.vbproj.GenerateResource.cache
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.vbproj.CoreCompileInputs.cache
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.exe
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.xml
+C:\Users\GAME\AppData\Local\Temporary Projects\money\obj\Debug\money.pdb
+D:\軟工導論\money\money\bin\Debug\money.exe.config
+D:\軟工導論\money\money\bin\Debug\money.exe
+D:\軟工導論\money\money\bin\Debug\money.pdb
+D:\軟工導論\money\money\bin\Debug\money.xml
+D:\軟工導論\money\money\obj\Debug\money.vbprojAssemblyReference.cache
+D:\軟工導論\money\money\obj\Debug\money.Form1.resources
+D:\軟工導論\money\money\obj\Debug\money.Resources.resources
+D:\軟工導論\money\money\obj\Debug\money.vbproj.GenerateResource.cache
+D:\軟工導論\money\money\obj\Debug\money.vbproj.CoreCompileInputs.cache
+D:\軟工導論\money\money\obj\Debug\money.exe
+D:\軟工導論\money\money\obj\Debug\money.xml
+D:\軟工導論\money\money\obj\Debug\money.pdb
