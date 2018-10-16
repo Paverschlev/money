@@ -15,10 +15,12 @@ D:\軟工導論\money\money\bin\Debug\money.exe
 D:\軟工導論\money\money\bin\Debug\money.pdb
 D:\軟工導論\money\money\bin\Debug\money.xml
 D:\軟工導論\money\money\obj\Debug\money.vbprojAssemblyReference.cache
-D:\軟工導論\money\money\obj\Debug\money.Form1.resources
 D:\軟工導論\money\money\obj\Debug\money.Resources.resources
 D:\軟工導論\money\money\obj\Debug\money.vbproj.GenerateResource.cache
 D:\軟工導論\money\money\obj\Debug\money.vbproj.CoreCompileInputs.cache
 D:\軟工導論\money\money\obj\Debug\money.exe
 D:\軟工導論\money\money\obj\Debug\money.xml
 D:\軟工導論\money\money\obj\Debug\money.pdb
+D:\軟工導論\money\money\obj\Debug\money.money_wallet.resources
+D:\軟工導論\money\money\obj\Debug\money.login.resources
+D:\軟工導論\money\money\obj\Debug\money.PWctrl.resources

@@ -1,12 +1,30 @@
-﻿Public Class Form1
+﻿Public Class money_wallet
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-
     End Sub
     Dim wallet_money As Integer = 0
     Dim times As Integer = 0
     Dim SA_SP(11), systemtime(11), money(11) As Label
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles moneyBotton.Click
+
+    Private Sub TabControl1_SelectedIndexChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub TabPage1_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        login.Show()
+        PWctrl.Close()
+        Me.Close()
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        PWctrl.Show()
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+
         If Not IsNumeric(moneychange.Text) Then
             MessageBox.Show("請輸入數字")
             Exit Sub
@@ -38,7 +56,7 @@
         moneychange.Text = ""
     End Sub
 
-    Private Sub systemtime_Click(sender As Object, e As EventArgs) Handles system_time.Click
+    Private Sub systemtime_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class
