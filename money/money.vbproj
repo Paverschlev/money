@@ -122,6 +122,12 @@
     <Compile Include="PWctrl.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="record.Designer.vb">
+      <DependentUpon>record.vb</DependentUpon>
+    </Compile>
+    <Compile Include="record.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PWctrl.resx">
       <DependentUpon>PWctrl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="record.resx">
+      <DependentUpon>record.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

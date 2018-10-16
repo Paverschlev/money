@@ -24,3 +24,4 @@ D:\軟工導論\money\money\obj\Debug\money.pdb
 D:\軟工導論\money\money\obj\Debug\money.money_wallet.resources
 D:\軟工導論\money\money\obj\Debug\money.login.resources
 D:\軟工導論\money\money\obj\Debug\money.PWctrl.resources
+D:\軟工導論\money\money\obj\Debug\money.record.resources
