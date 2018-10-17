@@ -9,7 +9,7 @@
 
         If PWin.Text = pw Then
             money_wallet.Show()
-            Me.Close()
+            Me.Hide()
         End If
 ed:
     End Sub

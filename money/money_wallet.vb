@@ -4,6 +4,8 @@
     Dim wallet_money As Integer = 0
     Dim times As Integer = 0
     Dim SA_SP(11), systemtime(11), money(11) As Label
+    Dim costmoney As Integer = 0
+    Dim critmoney As Integer
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         login.Show()
@@ -13,6 +15,15 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         PWctrl.Show()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        兌獎.Show()
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        critmoney = Val(critmon.Text) * 0.8
+        critmonmax.Text = Val(critmoney)
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
@@ -48,9 +59,17 @@
                 SA_SP(times).Text = "花費"
                 money(times).Text = "-" & moneychange.Text
                 systemtime(times).Text = Format(Now, "yyyy/m/d h:m:s")
+                costmoney = costmoney + Val(moneychange.Text)
         End Select
+
+        If Val(costmoney) >= Val(critmoney) Then
+            Label2.Text = "花費已超出最大預算的80%"
+            Label2.Visible = True
+        End If
         moneychange.Text = ""
     End Sub
-
+    Private Sub frmPractise_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        login.Close()
+    End Sub
 End Class
 
