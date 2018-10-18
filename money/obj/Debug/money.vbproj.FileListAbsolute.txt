@@ -31,3 +31,4 @@ D:\軟工導論\money\money\bin\Debug\money.application
 D:\軟工導論\money\money\obj\Debug\money.TrustInfo.xml
 D:\軟工導論\money\money\obj\Debug\money.exe.manifest
 D:\軟工導論\money\money\obj\Debug\money.application
+D:\軟工導論\money\money\obj\Debug\money.圓餅圖.resources

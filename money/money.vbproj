@@ -25,7 +25,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -155,6 +155,12 @@
     <Compile Include="兌獎.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="圓餅圖.Designer.vb">
+      <DependentUpon>圓餅圖.vb</DependentUpon>
+    </Compile>
+    <Compile Include="圓餅圖.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="money_wallet.resx">
@@ -177,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="兌獎.resx">
       <DependentUpon>兌獎.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="圓餅圖.resx">
+      <DependentUpon>圓餅圖.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

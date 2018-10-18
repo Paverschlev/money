@@ -36,6 +36,7 @@ Partial Class money_wallet
         Me.Label1 = New System.Windows.Forms.Label()
         Me.critmonmax = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'SA_SPlist
@@ -43,10 +44,10 @@ Partial Class money_wallet
         Me.SA_SPlist.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.SA_SPlist.Font = New System.Drawing.Font("新細明體", 20.0!)
         Me.SA_SPlist.FormattingEnabled = True
-        Me.SA_SPlist.Items.AddRange(New Object() {"存入", "花費"})
+        Me.SA_SPlist.Items.AddRange(New Object() {"存入", "花費(行)", "花費(衣)", "花費(住)", "花費(食)"})
         Me.SA_SPlist.Location = New System.Drawing.Point(135, 60)
         Me.SA_SPlist.Name = "SA_SPlist"
-        Me.SA_SPlist.Size = New System.Drawing.Size(82, 35)
+        Me.SA_SPlist.Size = New System.Drawing.Size(120, 35)
         Me.SA_SPlist.Sorted = True
         Me.SA_SPlist.TabIndex = 97
         '
@@ -82,16 +83,16 @@ Partial Class money_wallet
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(223, 60)
+        Me.Button1.Location = New System.Drawing.Point(8, 101)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(87, 35)
+        Me.Button1.Size = New System.Drawing.Size(135, 52)
         Me.Button1.TabIndex = 98
         Me.Button1.Text = "確認"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(149, 102)
+        Me.Button2.Location = New System.Drawing.Point(149, 160)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(141, 48)
         Me.Button2.TabIndex = 99
@@ -100,7 +101,7 @@ Partial Class money_wallet
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(6, 156)
+        Me.Button3.Location = New System.Drawing.Point(6, 214)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(137, 48)
         Me.Button3.TabIndex = 183
@@ -109,7 +110,7 @@ Partial Class money_wallet
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(6, 101)
+        Me.Button4.Location = New System.Drawing.Point(6, 159)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(137, 49)
         Me.Button4.TabIndex = 184
@@ -118,7 +119,7 @@ Partial Class money_wallet
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(149, 156)
+        Me.Button5.Location = New System.Drawing.Point(149, 214)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(141, 48)
         Me.Button5.TabIndex = 185
@@ -128,14 +129,14 @@ Partial Class money_wallet
         'critmon
         '
         Me.critmon.Font = New System.Drawing.Font("新細明體", 20.0!)
-        Me.critmon.Location = New System.Drawing.Point(3, 214)
+        Me.critmon.Location = New System.Drawing.Point(3, 267)
         Me.critmon.Name = "critmon"
         Me.critmon.Size = New System.Drawing.Size(140, 39)
         Me.critmon.TabIndex = 186
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(149, 215)
+        Me.Button6.Location = New System.Drawing.Point(149, 268)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(141, 40)
         Me.Button6.TabIndex = 187
@@ -146,7 +147,7 @@ Partial Class money_wallet
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("新細明體", 20.0!)
-        Me.Label1.Location = New System.Drawing.Point(1, 256)
+        Me.Label1.Location = New System.Drawing.Point(1, 309)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(181, 27)
         Me.Label1.TabIndex = 188
@@ -156,7 +157,7 @@ Partial Class money_wallet
         '
         Me.critmonmax.AutoSize = True
         Me.critmonmax.Font = New System.Drawing.Font("新細明體", 20.0!)
-        Me.critmonmax.Location = New System.Drawing.Point(180, 258)
+        Me.critmonmax.Location = New System.Drawing.Point(180, 311)
         Me.critmonmax.Name = "critmonmax"
         Me.critmonmax.Size = New System.Drawing.Size(39, 27)
         Me.critmonmax.TabIndex = 189
@@ -167,18 +168,28 @@ Partial Class money_wallet
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("新細明體", 20.0!)
         Me.Label2.ForeColor = System.Drawing.Color.Red
-        Me.Label2.Location = New System.Drawing.Point(12, 283)
+        Me.Label2.Location = New System.Drawing.Point(12, 336)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(83, 27)
         Me.Label2.TabIndex = 190
         Me.Label2.Text = "Label2"
         Me.Label2.Visible = False
         '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(149, 102)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(135, 52)
+        Me.Button7.TabIndex = 191
+        Me.Button7.Text = "圓餅圖"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
         'money_wallet
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(532, 427)
+        Me.ClientSize = New System.Drawing.Size(383, 378)
+        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.critmonmax)
         Me.Controls.Add(Me.Label1)
@@ -214,4 +225,5 @@ Partial Class money_wallet
     Friend WithEvents Label1 As Label
     Friend WithEvents critmonmax As Label
     Friend WithEvents Label2 As Label
+    Friend WithEvents Button7 As Button
 End Class

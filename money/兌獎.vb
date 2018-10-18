@@ -5,6 +5,10 @@
     Dim bonus As Integer = 0
     Dim times As Integer = 0
 
+    Private Sub 兌獎_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+    End Sub
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
         Dim yournum As Integer
