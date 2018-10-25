@@ -3,6 +3,9 @@
         Me.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
         Button7.Enabled = False
     End Sub
+
+
+
     Dim wallet_money As Integer = 0
     Dim times As Integer = 0
     Dim SA_SP(11), systemtime(11), money(11) As Label
@@ -38,8 +41,7 @@
         record.Show()
     End Sub
 
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If Not IsNumeric(moneychange.Text) Then
             MessageBox.Show("請輸入數字")
             Exit Sub

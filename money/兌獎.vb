@@ -13,8 +13,7 @@
 
         Dim yournum As Integer
         Randomize()
-        yournum = Int(Rnd() * (99999999 - 10000000 + 1)) + 10000000
-        Console.WriteLine("{0,22:D8} {0,22:X8}", yournum)
+        yournum = Int(Rnd() * 99999999)
         Console.WriteLine("{0,22:D8} {0,22:X8}", yournum)
         numstr = yournum
         For j = 3 To 8
@@ -36,11 +35,14 @@
                         bonus = 200000 + bonus
                 End Select
             End If
+            If bonus <> 0 Then
+                Button1.Enabled = False
+            End If
         Next
 
         times = times + 1
         Label1.Text = Val(times)
         winprice.Text = Val(bonus)
-        ramdonint.Text = yournum
+        ramdonint.Text = yournum.ToString("00000000")
     End Sub
 End Class
